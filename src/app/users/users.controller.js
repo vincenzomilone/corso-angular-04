@@ -1,9 +1,10 @@
 (function() {
   angular
     .module('ngUsers')
-    .controller('UsersController', [UsersController]);
+    .controller('UsersController', ['usersList', UsersController]);
 
-  function UsersController() {
-    
+  function UsersController(usersList) {
+    var vm = this;
+    vm.list = usersList;
   }
 })();

@@ -39,3 +39,8 @@ exports.errorHandler = function(title) {
     this.emit('end');
   };
 };
+
+exports.backend = {
+  host: 'localhost',
+  port: 8090
+}
