@@ -1,0 +1,55 @@
+/**
+ *  Do not remove the comments below. It's the markers used by wiredep to inject
+ *  less dependencies when defined in the bower.json of your dependencies
+ */
+// bower:less
+// endbower
+
+/**
+ *  If you want to override some bootstrap variables, you have to change values here.
+ *  The list of variables are listed here bower_components/bootstrap/less/variables.less
+ */
+@navbar-inverse-link-color: #5AADBB;
+@icon-font-path: '../../bower_components/bootstrap/fonts/';
+@gray-light: #aaa;
+@gray: #777;
+
+html {
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+[ui-view="layout"] {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: row;
+}
+[ui-view="main"] {
+  flex: 1;
+  padding: 0 2rem;
+}
+[ui-view="sidebar"] {
+  flex: 0 0 12rem;
+  order: -1;
+  padding: 2rem 0;
+  background-color: @gray-lighter;
+  text-align: center;
+}
+h1 {
+  border-bottom: 1px solid @gray-lighter;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+/**
+ *  Do not remove the comments below. It's the markers used by gulp-inject to inject
+ *  all your less files automatically
+ */
+// injector
+// endinjector
