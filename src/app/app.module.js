@@ -2,16 +2,18 @@
   'use strict';
 
   angular
-    .module('corsoAngular03', [
+    .module('corsoAngular04', [
       'ngAnimate',
       'ngTouch',
       'ngSanitize',
+      'ngCookies',
       'ui.router',
       'ui.bootstrap',
       'toastr',
       'ngHome',
       'ngUsers',
-      'ngEditUser'
+      'ngEditUser',
+      'ngTranslator'
     ]);
 
 })();

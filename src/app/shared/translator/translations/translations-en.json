@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "home": "Home",
+    "users": "Users"
+  },
+  "users": {
+    "userId": "User ID",
+    "title": "Manage users",
+    "firstName": "Firstname",
+    "lastName": "Lastname",
+    "email": "Email",
+    "role": "Role",
+    "noUserFound": "No users found",
+    "selectRole": "Select a role",
+    "errors": {
+      "form": "All fields are required",
+      "firstNameRequired": "Firstname is required",
+      "lastNameRequired": "Lastname is required",
+      "emailRequired": "Email is required",  
+      "emailInvalid": "Insert a valid e-mail",    
+      "roleInvalid": "Role is required"      
+    },
+    "saved": "User successfully saved"
+  },
+  "save": "Save",
+  "cancel": "Canel",
+  "appTitle": "Welcome"
+}

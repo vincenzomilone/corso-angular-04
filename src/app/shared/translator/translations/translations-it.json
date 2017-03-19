@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "home": "Home",
+    "users": "Utenti"
+  },
+  "users": {
+    "userId": "ID utente",
+    "title": "Gestione utenti",
+    "firstName": "Nome",
+    "lastName": "Cognome",
+    "email": "Email",
+    "role": "Ruolo",
+    "noUserFound": "Nessun utente trovato",
+    "selectRole": "Seleziona ruolo",
+    "errors": {
+      "form": "Compila tutti i campi della form",
+      "firstNameRequired": "Il nome è obbligatorio",
+      "lastNameRequired": "Il cognome è obbligatorio",
+      "emailRequired": "L'e-mail è obbligatoria",  
+      "emailInvalid": "Inserisci una e-mail valida",    
+      "roleInvalid": "Il ruolo è obbligatorio"      
+    },
+    "saved": "Utente salvato con successo"
+  },
+  "save": "Salva",
+  "cancel": "Cancella",
+  "appTitle": "Benvenuti"
+}

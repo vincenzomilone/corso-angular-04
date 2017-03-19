@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('corsoAngular03')
+    .module('corsoAngular04')
     .config(['$stateProvider', '$urlRouterProvider',routerConfig]);
 
   /** @ngInject */
@@ -14,9 +14,11 @@
           'layout': {
             templateUrl: 'app/main/main.html',
             controller: 'MainController',
-            controllerAs: 'main'
+            controllerAs: '$main'
           },
           'sidebar@app': {
+            controller: 'TranslatorController',
+            controllerAs: '$translator',
             templateUrl: 'app/shared/sidebar/sidebar.html'
           }
         }

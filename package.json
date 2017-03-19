@@ -1,6 +1,6 @@
 {
-  "name": "corso-angular-03",
-  "version": "0.0.0",
+  "name": "corso-angular-04",
+  "version": "0.0.1",
   "dependencies": {},
   "scripts": {
     "test": "gulp test"

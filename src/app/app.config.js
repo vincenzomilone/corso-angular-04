@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('corsoAngular03')
+    .module('corsoAngular04')
     .config(['$logProvider', 'toastrConfig', config]);
 
   /** @ngInject */

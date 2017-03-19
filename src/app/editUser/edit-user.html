@@ -6,31 +6,31 @@
 >
 
   <div class="form-group">
-    <label class="control-label">Id</label>
+    <label class="control-label" translate>users.userId</label>
     <input class="form-control" type="text" name="userId" ng-model="$editUser.user.userId" disabled>
   </div>
 
   <div class="form-group">
-    <label class="control-label">Nome<sup>*</sup></label>
+    <label class="control-label"><span translate>users.firstName</span>*</sup></label>
     <input class="form-control" type="text" name="firstName" ng-model="$editUser.user.firstName" required>
     <span class="help-block" ng-show="editUserForm.firstName.$invalid">Nome obbligatorio</span>
   </div>
 
   <div class="form-group">
-    <label class="control-label">Cognome<sup>*</sup></label>
+    <label class="control-label"><span translate>users.lastName</span><sup>*</sup></label>
     <input class="form-control" type="text" name="lastName" ng-model="$editUser.user.lastName" required>
     <span class="help-block" ng-show="editUserForm.lastName.$invalid">Cognome obbligatorio</span>
   </div>
 
   <div class="form-group">
-    <label class="control-label">Email<sup>*</sup></label>
+    <label class="control-label"><span translate>users.email</span><sup>*</sup></label>
     <input class="form-control" type="email" name="email" ng-model="$editUser.user.email" required>
     <span class="help-block" ng-show="editUserForm.email.$error.required">Email obbligatoria</span>
     <span class="help-block" ng-show="editUserForm.email.$error.email">Inserisci una e-mail valida</span>
   </div>
 
   <div class="form-group">
-    <label class="control-label">Ruolo<sup>*</sup></label>
+    <label class="control-label"><span translate>users.role</span><sup>*</sup></label>
     <select 
       class="form-control"
       name="role" 
@@ -38,14 +38,14 @@
       ng-options="role.value as role.description for role in $editUser.roles"
       required
     >
-      <option value="">Seleziona ruolo</option>
+      <option value="" translate>users.selectRole</option>
     </select>
     <span class="help-block" ng-show="editUserForm.role.$invalid">Ruolo obbligatorio</span>
   </div>
 
   <div class="form-group text-right">
-   <button ng-click="$editUser.goBack()" type="button" class="btn btn-default">Annulla</button>
-   <button type="submit" class="btn btn-primary">Salva</button>
+   <button ng-click="$editUser.goBack()" type="button" class="btn btn-default" translate>cancel</button>
+   <button type="submit" class="btn btn-primary" translate>save</button>
   </div>
 
 </form>

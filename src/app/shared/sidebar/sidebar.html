@@ -1,8 +1,17 @@
 <nav class="sidebar_nav">
   <a class="sidebar_link" ui-sref="app.home" ui-sref-active="sidebar_link--active">
-    Home
+    <span translate>nav.home</span>
   </a>
   <a class="sidebar_link" ui-sref="app.users" ui-sref-active="sidebar_link--active">
-    Utenti
+    <span translate>nav.users</span>
   </a>
+</nav>
+
+<nav class="languages_nav">
+  <a 
+    ng-repeat="language in $translator.languages track by $index"
+    class="languages_link" 
+    ng-click="$translator.setLanguage(language)"
+    ng-class="{'languages_link--active': $translator.isActive(language)}"
+  >{{ language }}</a>
 </nav>

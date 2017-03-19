@@ -1,29 +1,29 @@
 <table class="users-table table table-bordered table-hover">
   <thead>
     <th ng-click="updateOrderBy('firstName')" width="30">
-      Nome
+      <span translate>users.firstName</span>
       <small ng-if="orderBy.value === 'firstName' && !orderBy.reverse">&darr;</small>
       <small ng-if="orderBy.value === 'firstName' && orderBy.reverse">&uarr;</small>
     </th>
     <th ng-click="updateOrderBy('lastName')" width="30">
-      Cognome
+      <span translate>users.lastName</span>
       <small ng-if="orderBy.value === 'lastName' && !orderBy.reverse">&darr;</small>
       <small ng-if="orderBy.value === 'lastName' && orderBy.reverse">&uarr;</small>
     </th>
     <th ng-click="updateOrderBy('email')" width="40">
-      Email
+      <span translate>users.email</span>
       <small ng-if="orderBy.value === 'email' && !orderBy.reverse">&darr;</small>
       <small ng-if="orderBy.value === 'email' && orderBy.reverse">&uarr;</small>
     </th>
     <th ng-click="updateOrderBy('role')" width="40">
-      Ruolo
+      <span translate>users.role</span>
       <small ng-if="orderBy.value === 'role' && !orderBy.reverse">&darr;</small>
       <small ng-if="orderBy.value === 'role' && orderBy.reverse">&uarr;</small>
     </th>
   </thead>
   <tbody ng-if="users.length === 0">
     <tr>
-      <td colspan="4">Nessun utente disponibile</td>
+      <td colspan="4" translate>users.noUserFound</td>
     </tr>
   </tbody>
   <tbody ng-if="users.length > 0">

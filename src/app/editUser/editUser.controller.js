@@ -1,9 +1,9 @@
 (function() {
   angular
     .module('ngEditUser')
-    .controller('EditUserController', ['userData', 'UsersModel', '$state', 'UsersRole', 'toastr', '_', EditUserController]);
+    .controller('EditUserController', ['userData', 'UsersModel', '$state', 'UsersRole', 'toastr', '_', '$translate', EditUserController]);
 
-  function EditUserController(userData, UsersModel, $state, UsersRole, toastr, _) {
+  function EditUserController(userData, UsersModel, $state, UsersRole, toastr, _, $translate) {
     var vm = this;
     vm.user = userData;
     vm.roles = [];
@@ -18,11 +18,15 @@
     }
     vm.save = function(form) {
       if(form.$invalid) {
-        toastr.error('Compilare tutti i dati della form');
+        $translate('users.errors.form').then(function(message) {
+          toastr.error(message);
+        })
         return;
       }
       UsersModel.updateUser(vm.user).then(function() {
-        toastr.success('Utente aggiornato con successo');
+        $translate('users.saved').then(function(message) {
+          toastr.success(message);
+        })
         vm.goBack();
       }, function() {
 
