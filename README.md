@@ -1,10 +1,10 @@
-# Corso AngularJs 02
+# Corso AngularJs 03
 
-Applicazione "didattica" che svolge i seguenti compiti:
-* uso avanzato di stati e viste
-* download lista utenti sfruttando una Service e UI-Router resolve
-* utilizzo direttive
-* ordinamento risultati con orderBy
+Applicazione "didattica" che continua a partire dall'[applicazione 02](https://github.com/vincenzomilone/corso-angular-02) e svolge i seguenti compiti:
+* vista "modifica utente"
+* validazione form
+
+L'applicazione è parte integrante del corso ["Sviluppo di applicazioni web client: AngularJs"](https://github.com/vincenzomilone/corso-angular-js)
 
 ## Installazione
 
