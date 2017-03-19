@@ -50,7 +50,7 @@ module.exports = function(config) {
 
     ngHtml2JsPreprocessor: {
       stripPrefix: conf.paths.src + '/',
-      moduleName: 'corsoAngular02'
+      moduleName: 'corsoAngular03'
     },
 
     logLevel: 'WARN',

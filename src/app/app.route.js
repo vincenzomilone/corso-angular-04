@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('corsoAngular02')
+    .module('corsoAngular03')
     .config(['$stateProvider', '$urlRouterProvider',routerConfig]);
 
   /** @ngInject */

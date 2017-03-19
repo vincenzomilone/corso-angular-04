@@ -34,6 +34,18 @@ app.get('/api/v1/users/:userId', function(req, res, next) {
     next();
   }
 });
+app.put('/api/v1/users/:userId', function(req, res, next) {
+  var user = _.find(users, {'userId': req.params.userId});
+  if(user) {
+    _.remove(users, function(i) {
+      return i.userId === user.userId;
+    });
+    users.push(req.body);
+    res.sendStatus(200);
+  } else {
+    next();
+  }
+});
 //------------
 // 404
 //------------

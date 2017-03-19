@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('corsoAngular02')
+    .module('corsoAngular03')
     .controller('MainController', MainController);
 
   /** @ngInject */

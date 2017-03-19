@@ -46,7 +46,14 @@ h1 {
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
-
+.help-block {
+  color: @brand-danger;
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+  &.ng-hide {
+    opacity: 0;
+  }
+}
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your less files automatically

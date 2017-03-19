@@ -3,7 +3,8 @@
   'use strict';
 
   angular
-    .module('corsoAngular02')
+    .module('corsoAngular03')
+    .constant('_', _)
     .constant('moment', moment);
 
 })();

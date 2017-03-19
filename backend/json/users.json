@@ -4,6 +4,7 @@
     "firstName": "Cooper",
     "lastName":"Burnett",
     "email": "cooperburnett@dymi.com",
+    "role": "ADMIN",
     "phone": "+39 (982) 551-3356",
     "registered": "2017-01-10T06:16:53 -01:00"
   },
@@ -12,6 +13,7 @@
     "firstName": "Nettie",
     "lastName":"Wade",
     "email": "nettiewade@dymi.com",
+    "role": "DEVELOPER",
     "phone": "+39 (927) 501-3350",
     "registered": "2016-09-09T09:38:25 -02:00"
   },
@@ -20,6 +22,7 @@
     "firstName": "Sweet",
     "lastName":"Workman",
     "email": "sweetworkman@dymi.com",
+    "role": "DEVELOPER",
     "phone": "+39 (852) 522-2808",
     "registered": "2016-05-14T07:18:45 -02:00"
   },
@@ -28,6 +31,7 @@
     "firstName": "Snow",
     "lastName":"Wood",
     "email": "snowwood@dymi.com",
+    "role": "DEVELOPER",
     "phone": "+39 (956) 536-2262",
     "registered": "2015-08-01T06:53:26 -02:00"
   },
@@ -36,6 +40,7 @@
     "firstName": "Fields",
     "lastName":"Sears",
     "email": "fieldssears@dymi.com",
+    "role": "DEVELOPER",
     "phone": "+39 (933) 514-3455",
     "registered": "2016-05-05T04:50:11 -02:00"
   },
@@ -44,6 +49,7 @@
     "firstName": "Lavonne",
     "lastName":"Henson",
     "email": "lavonnehenson@dymi.com",
+    "role": "DEVELOPER",
     "phone": "+39 (985) 490-3122",
     "registered": "2014-06-27T04:14:17 -02:00"
   },
@@ -52,6 +58,7 @@
     "firstName": "Lynn",
     "lastName":"Rivera",
     "email": "lynnrivera@dymi.com",
+    "role": "DEVELOPER",
     "phone": "+39 (962) 583-2672",
     "registered": "2016-06-25T12:47:16 -02:00"
   },
@@ -60,6 +67,7 @@
     "firstName": "Williams",
     "lastName":"Horn",
     "email": "williamshorn@dymi.com",
+    "role": "BASE",
     "phone": "+39 (942) 528-3365",
     "registered": "2015-09-18T05:36:43 -02:00"
   },
@@ -68,6 +76,7 @@
     "firstName": "Beverley",
     "lastName":"Holder",
     "email": "beverleyholder@dymi.com",
+    "role": "DEVELOPER",
     "phone": "+39 (865) 488-2385",
     "registered": "2016-05-17T11:11:24 -02:00"
   },
@@ -76,6 +85,7 @@
     "firstName": "Moreno",
     "lastName":"Whitney",
     "email": "morenowhitney@dymi.com",
+    "role": "BASE",
     "phone": "+39 (976) 496-2589",
     "registered": "2014-12-12T07:27:59 -01:00"
   },
@@ -84,6 +94,7 @@
     "firstName": "Jimenez",
     "lastName":"Moon",
     "email": "jimenezmoon@dymi.com",
+    "role": "BASE",
     "phone": "+39 (858) 476-3171",
     "registered": "2015-12-14T07:30:27 -01:00"
   },
@@ -92,6 +103,7 @@
     "firstName": "Josie",
     "lastName":"Hays",
     "email": "josiehays@dymi.com",
+    "role": "BASE",
     "phone": "+39 (843) 599-3513",
     "registered": "2014-11-06T04:32:14 -01:00"
   },
@@ -100,6 +112,7 @@
     "firstName": "Harrell",
     "lastName":"Harmon",
     "email": "harrellharmon@dymi.com",
+    "role": "DEVELOPER",
     "phone": "+39 (968) 523-3536",
     "registered": "2017-02-10T06:22:00 -01:00"
   },
@@ -108,6 +121,7 @@
     "firstName": "Emily",
     "lastName":"Griffin",
     "email": "emilygriffin@dymi.com",
+    "role": "ADMIN",
     "phone": "+39 (823) 569-2622",
     "registered": "2014-07-31T04:51:29 -02:00"
   },
@@ -116,6 +130,7 @@
     "firstName": "Martha",
     "lastName":"Coffey",
     "email": "marthacoffey@dymi.com",
+    "role": "BASE",
     "phone": "+39 (879) 441-2187",
     "registered": "2014-11-12T04:38:45 -01:00"
   },
@@ -124,6 +139,7 @@
     "firstName": "Nicole",
     "lastName":"Roach",
     "email": "nicoleroach@dymi.com",
+    "role": "BASE",
     "phone": "+39 (952) 483-2823",
     "registered": "2017-01-12T06:43:49 -01:00"
   },
@@ -132,6 +148,7 @@
     "firstName": "Mclaughlin",
     "lastName":"Patrick",
     "email": "mclaughlinpatrick@dymi.com",
+    "role": "BASE",
     "phone": "+39 (958) 495-3530",
     "registered": "2015-06-23T06:45:51 -02:00"
   },
@@ -140,6 +157,7 @@
     "firstName": "Franklin",
     "lastName":"Wagner",
     "email": "franklinwagner@dymi.com",
+    "role": "BASE",
     "phone": "+39 (916) 585-2351",
     "registered": "2014-05-23T11:53:55 -02:00"
   },
@@ -148,6 +166,7 @@
     "firstName": "Rutledge",
     "lastName":"Weeks",
     "email": "rutledgeweeks@dymi.com",
+    "role": "BASE",
     "phone": "+39 (891) 462-3775",
     "registered": "2014-06-29T03:27:24 -02:00"
   },
@@ -156,6 +175,7 @@
     "firstName": "Callie",
     "lastName":"Lynn",
     "email": "callielynn@dymi.com",
+    "role": "ADMIN",
     "phone": "+39 (946) 447-2561",
     "registered": "2015-11-30T12:32:20 -01:00"
   },
@@ -164,6 +184,7 @@
     "firstName": "Juana",
     "lastName":"Hart",
     "email": "juanahart@dymi.com",
+    "role": "ADMIN",
     "phone": "+39 (905) 573-2187",
     "registered": "2016-07-08T10:33:57 -02:00"
   },
@@ -172,6 +193,7 @@
     "firstName": "Dolly",
     "lastName":"Bowen",
     "email": "dollybowen@dymi.com",
+    "role": "ADMIN",
     "phone": "+39 (871) 542-3708",
     "registered": "2014-04-14T12:33:05 -02:00"
   },
@@ -180,6 +202,7 @@
     "firstName": "Nell",
     "lastName":"Walsh",
     "email": "nellwalsh@dymi.com",
+    "role": "ADMIN",
     "phone": "+39 (824) 546-3287",
     "registered": "2016-07-28T08:47:36 -02:00"
   },
@@ -188,6 +211,7 @@
     "firstName": "Madelyn",
     "lastName":"Hayes",
     "email": "madelynhayes@dymi.com",
+    "role": "ADMIN",
     "phone": "+39 (933) 558-3420",
     "registered": "2015-05-20T06:18:59 -02:00"
   },
@@ -196,6 +220,7 @@
     "firstName": "Delgado",
     "lastName":"Wilson",
     "email": "delgadowilson@dymi.com",
+    "role": "ADMIN",
     "phone": "+39 (889) 553-3674",
     "registered": "2016-12-02T07:07:37 -01:00"
   }

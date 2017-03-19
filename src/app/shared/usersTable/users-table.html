@@ -15,19 +15,26 @@
       <small ng-if="orderBy.value === 'email' && !orderBy.reverse">&darr;</small>
       <small ng-if="orderBy.value === 'email' && orderBy.reverse">&uarr;</small>
     </th>
+    <th ng-click="updateOrderBy('role')" width="40">
+      Ruolo
+      <small ng-if="orderBy.value === 'role' && !orderBy.reverse">&darr;</small>
+      <small ng-if="orderBy.value === 'role' && orderBy.reverse">&uarr;</small>
+    </th>
   </thead>
   <tbody ng-if="users.length === 0">
     <tr>
-      <td colspan="3">Nessun utente disponibile</td>
+      <td colspan="4">Nessun utente disponibile</td>
     </tr>
   </tbody>
   <tbody ng-if="users.length > 0">
     <tr 
       ng-repeat="user in orderedUsers = (users | orderBy:orderBy.value:orderBy.reverse) track by $index"
+      ng-click="editUser(user)"
     >
       <td>{{ user.firstName }}</td>
       <td>{{ user.lastName }}</td>
       <td>{{ user.email }}</td>
+      <td>{{ user.role | userRoleLabel }}</td>
     </tr>
   </tbody>
 </table>

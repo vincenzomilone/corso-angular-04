@@ -25,6 +25,9 @@
           $scope.orderBy.value = value;
           $scope.orderBy.reverse = false; 
         }
+        $scope.editUser = function(user) {
+          $scope.$emit('EDIT_USER', user);
+        }
       } 
     }
   }
