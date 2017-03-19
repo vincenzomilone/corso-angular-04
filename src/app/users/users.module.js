@@ -1,4 +1,6 @@
 (function() {
   angular
-    .module('ngUsers', []);
+    .module('ngUsers', [
+      'ngUsersTable',
+    ]);
 })();

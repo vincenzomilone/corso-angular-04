@@ -1,0 +1,33 @@
+<table class="users-table table table-bordered table-hover">
+  <thead>
+    <th ng-click="updateOrderBy('firstName')" width="30">
+      Nome
+      <small ng-if="orderBy.value === 'firstName' && !orderBy.reverse">&darr;</small>
+      <small ng-if="orderBy.value === 'firstName' && orderBy.reverse">&uarr;</small>
+    </th>
+    <th ng-click="updateOrderBy('lastName')" width="30">
+      Cognome
+      <small ng-if="orderBy.value === 'lastName' && !orderBy.reverse">&darr;</small>
+      <small ng-if="orderBy.value === 'lastName' && orderBy.reverse">&uarr;</small>
+    </th>
+    <th ng-click="updateOrderBy('email')" width="40">
+      Email
+      <small ng-if="orderBy.value === 'email' && !orderBy.reverse">&darr;</small>
+      <small ng-if="orderBy.value === 'email' && orderBy.reverse">&uarr;</small>
+    </th>
+  </thead>
+  <tbody ng-if="users.length === 0">
+    <tr>
+      <td colspan="3">Nessun utente disponibile</td>
+    </tr>
+  </tbody>
+  <tbody ng-if="users.length > 0">
+    <tr 
+      ng-repeat="user in orderedUsers = (users | orderBy:orderBy.value:orderBy.reverse) track by $index"
+    >
+      <td>{{ user.firstName }}</td>
+      <td>{{ user.lastName }}</td>
+      <td>{{ user.email }}</td>
+    </tr>
+  </tbody>
+</table>
